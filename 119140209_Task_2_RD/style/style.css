@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: inline;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+.header1 {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #007b65;
+    color:white;
+}
+
+.header1 img {
+    border-radius: 5px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007b65;
+    color:white;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+legend {
+    color: black;
+    padding: 10px;
+    background-color: #bababa;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0.3, 0.3, 0.3, 0.3);
+}
+
+fieldset {
+    max-width: 300px;
+    border-radius: 10px;
+    border-color: #4fffa5;
+    background-color: #007b65;
+}
+
+label {
+    float: left;
+    color: white;
+}
+
+input, select {
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    font-family: 'Times new roman', sans-serif;
+    width: 100%;
+}
+
+input:hover, select:hover {
+    background-color: #7affce;
+    border: none;
+}
+
+button {
+    cursor: pointer;
+    color: white;
+    background: #ff5f5f;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Times new roman', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+}
+
+button:hover {
+    background: #ff2e2e;
+}
